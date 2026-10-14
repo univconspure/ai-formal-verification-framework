@@ -1,0 +1,6 @@
+name = "alignment55"
+version = "0.1.0"
+defaultTargets = ["Alignment55"]
+
+[[lean_lib]]
+name = "Alignment55"

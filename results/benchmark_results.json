@@ -1,0 +1,27 @@
+{
+  "architecture": "Alignment 5/5 V_Full starter",
+  "timestamp_utc": "2026-10-14T15:51:43Z",
+  "seed": 42,
+  "m_provenance": {
+    "honest_pass": true,
+    "tamper_detected": true,
+    "n": 50,
+    "note": "hardware-backed timestamp required in production; here hash-chain only"
+  },
+  "latent_tracing": {
+    "n": 50,
+    "sparse_ops": 282.2,
+    "dense_ops": 2500,
+    "speedup": 8.86,
+    "pac_epsilon": 0.05,
+    "pac_delta": 0.01,
+    "note": "placeholder bound; full PAC proof is axiomatized in Lean starter"
+  },
+  "hns_audit": {
+    "probes": 50,
+    "flagged": 4,
+    "flag_rate": 0.08,
+    "note": "synthetic; connect to target API for real HnS-style audit"
+  },
+  "disclaimer": "Starter scaffold \u2013 not a certification. Replace synthetic probes with pre-registered evaluation."
+}

@@ -1,0 +1,16 @@
+suite,metric,value
+m_provenance,honest_pass,True
+m_provenance,tamper_detected,True
+m_provenance,n,50
+m_provenance,note,hardware-backed timestamp required in production; here hash-chain only
+latent_tracing,n,50
+latent_tracing,sparse_ops,282.2
+latent_tracing,dense_ops,2500
+latent_tracing,speedup,8.86
+latent_tracing,pac_epsilon,0.05
+latent_tracing,pac_delta,0.01
+latent_tracing,note,placeholder bound; full PAC proof is axiomatized in Lean starter
+hns_audit,probes,50
+hns_audit,flagged,4
+hns_audit,flag_rate,0.08
+hns_audit,note,synthetic; connect to target API for real HnS-style audit

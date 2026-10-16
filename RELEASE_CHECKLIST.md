@@ -6,8 +6,8 @@ This checklist is intended for a truthful public release of the Alignment 5/5 Ve
 
 Run the project verification commands and keep the output logs:
 
-```bash
 cd "c:/Users/coolh/OneDrive/Documents/GitHub/alignment55-verfication-v0.10"
+```bash
 lake build
 python benchmarks/run_benchmarks.py --n 200 --out results
 sha256sum results/* > results/SHA256SUMS.txt

@@ -7,7 +7,7 @@ This repository is a working starter proof-and-benchmark package for the Alignme
 This repository has been validated at the starter-project level with fresh evidence:
 
 ```bash
-cd "c:/Users/coolh/OneDrive/Documents/GitHub/alignment55-verfication-v0.10"
+cd "c:/.../alignment55-verfication-v0.10"
 lake build
 python benchmarks/run_benchmarks.py --n 50 --out results
 ```
@@ -73,7 +73,7 @@ Use this wording only after public release and artifact publication:
 Use this exact sequence before publishing a release:
 
 ```bash
-cd "c:/Users/coolh/OneDrive/Documents/GitHub/alignment55-verfication-v0.10"
+cd "c:/.../alignment55-verfication-v0.10"
 lake build
 python benchmarks/run_benchmarks.py --n 200 --out results
 sha256sum results/* > results/SHA256SUMS.txt

@@ -5,9 +5,9 @@ This repository is a working starter proof-and-benchmark package for the Alignme
 ## Verified status
 
 This repository has been validated at the starter-project level with fresh evidence:
+point to directory-> cd "c:/.../alignment55-verfication-v0.10"
 
 ```bash
-cd "c:/.../alignment55-verfication-v0.10"
 lake build
 python benchmarks/run_benchmarks.py --n 50 --out results
 ```
@@ -71,9 +71,9 @@ Use this wording only after public release and artifact publication:
 ## GitHub release workflow
 
 Use this exact sequence before publishing a release:
+point to directory-> cd "c:/.../alignment55-verfication-v0.10"
 
 ```bash
-cd "c:/.../alignment55-verfication-v0.10"
 lake build
 python benchmarks/run_benchmarks.py --n 200 --out results
 sha256sum results/* > results/SHA256SUMS.txt
